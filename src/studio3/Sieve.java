@@ -7,7 +7,7 @@ public class Sieve {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		System.out.print("What n value would you like to use?");
-		int n = in.nextInt();
+		int n = in.nextInt() + 1;
 		boolean[] numbers = new boolean [n];
 		for(int i = 2; i < n;  i++) {
 			numbers[i] = true;
